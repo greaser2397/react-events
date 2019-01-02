@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'semantic-ui-css/semantic.min.css';
 import './index.css';
-import App from './App';
+import App from './app/layout/App';
 import * as serviceWorker from './serviceWorker';
+import module from 'react-hot-loader';
 
 const rootEl = document.getElementById('root');
 
